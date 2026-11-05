@@ -1,0 +1,90 @@
+body {
+    background-color: #F6F6FB;
+    margin: 0;
+    font-family: inter;
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-radius: 999px;
+    margin: 16px 24px;
+    padding: 16px 24px;
+    box-shadow: 0 8px 24px rgba(80, 70, 140, 0.08);
+}
+
+nav a {
+    color: #1c1b2e;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#nav-logo a {
+    font-weight: 700;
+    font-size: 22px;
+    white-space: nowrap;
+}
+
+#nav-logo:first-child::after { /* คือวงกลมต่อท้ายในโลโก้เว็บ */
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin-left: 2px;
+    border-radius: 50%;
+    background-color: #6d5efc;
+    vertical-align: 10px;
+}
+
+.nav-link{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+nav .active{
+    color:#5E44FF;
+    text-decoration: underline;
+}
+
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 120px;
+}
+
+span{
+    color: #5E44FF;
+}
+
+.tag {
+    background-color: #563AFF1A;
+    padding: 8px 20px;
+    border-radius: 999px;
+    color: #5E44FF;
+    font-size: 16px;
+}
+
+h1{
+    font-size: 80px;
+    margin:0;
+    margin-bottom: 24px;
+}
+
+subtitle{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+button{
+    background-color: #1c1b2e;
+    color: #ffffff;
+    padding: 16px 36px;
+    border: 0;
+    border-radius: 16px;
+}
